@@ -103,6 +103,8 @@ public class MyLinkedListStack {
             System.out.println("pop:" + myStack.pop());
 
             myStack.push(60);
+            
+            myStack.push(70);
 
             System.out.println("pop:" + myStack.pop());
 
