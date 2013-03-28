@@ -70,51 +70,5 @@ public class MyLinkedListStack {
 
             current = current.next;
         }
-    }
-
-    public static void main(String[] args) {
-        try {
-            MyLinkedListStack myStack = new MyLinkedListStack();
-
-            myStack.push(10);
-            myStack.push(20);
-            myStack.push(30);
-            myStack.push(40);
-            myStack.push(50);
-
-            System.out.println("print stack");
-            myStack.print();
-
-            System.out.println("pop:" + myStack.pop());
-
-
-            System.out.println("print stack");
-            myStack.print();
-
-            System.out.println("pop:" + myStack.pop());
-
-            System.out.println("print stack");
-            myStack.print();
-
-            System.out.println("pop:" + myStack.pop());
-
-            System.out.println("pop:" + myStack.pop());
-
-            System.out.println("pop:" + myStack.pop());
-
-            myStack.push(60);
-            
-            myStack.push(70);
-
-            System.out.println("pop:" + myStack.pop());
-
-            System.out.println("pop:" + myStack.pop());
-
-        } catch (Exception ex) {
-            Logger.getLogger(MyLinkedListStack.class.getName()).log(Level.SEVERE, null, ex);
-        }
-
-
-
-    }
+    }   
 }
